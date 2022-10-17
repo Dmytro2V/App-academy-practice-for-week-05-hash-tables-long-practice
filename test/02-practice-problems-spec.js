@@ -138,7 +138,8 @@ describe ('Phase 2 - Hash table practice problems', function () {
 
     expect(wordPattern(patternArr.join(""), strings)).to.be.true;
 
-    strings[target-1] = 'Elderberry';
+    //strings[target-1] = 'Elderberry';
+    patternArr[target-1] ="Y";
 
     expect(wordPattern(patternArr.join(""), strings)).to.be.false;
 
